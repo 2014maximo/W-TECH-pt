@@ -7,6 +7,7 @@ import { ActivityOneComponent } from './ovas/activity-one/activity-one.component
 import { ActivityTwoComponent } from './ovas/activity-two/activity-two.component';
 import { RouterModule } from '@angular/router';
 import { HomeRoutingModule } from './home-routing.module';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { HomeRoutingModule } from './home-routing.module';
     CommonModule,
     HomeRoutingModule,
     RouterModule,
+    FormsModule,
     SharedModule
   ],
   exports:[
