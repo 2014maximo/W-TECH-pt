@@ -1,0 +1,15 @@
+<div class="sidemenu text-light">
+    <img src="assets/img/feature/UNADAC.png" alt="logo UNADAC" class="img-fluid">
+    <ul class="mt-4">
+        <li *ngFor="let item of menuItems">
+            <h5 (click)="item.showChild = !item.showChild" class="text-body cursor-p">{{ item.name }}</h5>
+            <div *ngIf="!item.showChild">
+                <ul >
+                    <li class="">
+                        <p *ngFor="let child of item.childContent" (click)="goOva(child.link)" class="text-body cursor-p">{{ child.name }}</p>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+</div>

@@ -1,3 +1,19 @@
+# PRUEBA TÉCNICA W-TECH (Proyecto Angular 16)
+*Prototipo basado en:*
+>https://w-techsas.com/proyecto-demo/15OVAS/comunicacion-escrita/competencias/competencias5
+
+## PASOS A SEGUIR PARA EJECUTAR EN LOCAL:
+Descargar el repositorio a local de: `https://github.com/2014maximo/W-TECH-pt.git`.
+
+Usar NodeJS version 16 en adelante
+
+Descargar las dependencias con:
+`npm i`.
+
+Correr el proyecto con `npm start` y abrir en el puerto local `http://localhost:4200/`..
+
+
+
 # WTECHPt
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.

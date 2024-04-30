@@ -1,0 +1,24 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-tech fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse d-flex justify-content-around w-100" id="navbarTogglerDemo01">
+        <div class="w-100 d-flex justify-content-around">
+            <p class="navbar-brand fs-25 lh-20 m-0">{{ title }}</p>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <button class="btn btn-outline-success bi bi-list" type="button" (click)="openNav()">
+                        Menu
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-outline-secondary ml-2 bi bi-question-circle" type="button"> Ayuda</button>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-outline-info ml-2 bi bi-globe-americas" type="button"> Tour</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
