@@ -23,8 +23,16 @@ export class SideMenuComponent {
     // @ts-ignore: Object is possibly 'null'.
   }
 
-  goOva(link: string){
+  goOva(link: string, ref:any, position:number){
     this.router.navigate([link]);
+
+    var items = document.querySelectorAll('.menu li');
+    console.log(items, 'ITEMS');
+  items.forEach(function(item) {
+    item.classList.remove('active');
+  });
+  
+  ref.target.classList.add('active');
   }
 
 }

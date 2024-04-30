@@ -31,5 +31,4 @@ Correr el proyecto con `npm start` y abrir en el puerto local `http://localhost:
 - [x] Pruebas unitarias o de integración.
 - [x] Servicio de APIs para la carga de datos.
 - [x] Diseño responsivo adaptable a diferentes tamaños.
-- [x] La propiedad 'ACTIVE' para los botones del menu lateral.
 - [x] Una fuente específica.
